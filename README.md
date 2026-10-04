@@ -1,5 +1,13 @@
 # ManiSkill 3
 
+> **Project origin / 项目来源**
+>
+> This project is derived from the official [ManiSkill repository](https://github.com/mani-skill/ManiSkill), based on the official **v3.0.1** release. It includes the upstream source code, documentation, assets, licenses, and additional multi-task Diffusion Policy work under [`examples/baselines/diffusion_policy/`](examples/baselines/diffusion_policy/). This repository is an independent continuation and is not an official ManiSkill release.
+>
+> 本项目继承自 [ManiSkill 官方仓库](https://github.com/mani-skill/ManiSkill)，以官方 **v3.0.1** 版本为基础，保留原项目的源码、文档、资源及许可证，并在 `examples/baselines/diffusion_policy/` 中加入多任务 Diffusion Policy 相关实现。本仓库并非 ManiSkill 官方发布版本。
+>
+> The experiment manifest in `examples/baselines/diffusion_policy/experiments/` references demonstration data stored outside this repository. Supply those data files separately before running the added training scripts.
+
 
 ![teaser](figures/teaser.jpg)
 <p style="text-align: center; font-size: 0.8rem; color: #999;margin-top: -1rem;">Sample of environments/robots rendered with ray-tracing. Scene datasets sourced from AI2THOR and ReplicaCAD</p>
